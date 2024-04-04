@@ -127,3 +127,46 @@
 }
 
 /* We are gamer container styles  */
+
+.we-gamer-container{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.we-gamer-image img{
+    width: 100%;
+    flex: auto;
+}
+
+.we-gamer-content{
+    flex: auto;
+    width: 50%;
+    text-align: right;
+}
+
+.we-gamer-title{
+    color: var(--title-linear-color);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.we-gamer-desc{
+    color: var(--description-color);
+    margin-bottom: 1rem;
+}
+
+.we-gamer-btn{
+    border: none;
+    color: #fff;
+    background-color: #FF42A5;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
