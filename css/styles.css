@@ -232,3 +232,48 @@
 .play img{
     width: 50px;
 }
+
+/* Play Instantly container styles  */
+
+.play-instantly-container{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.play-instantly-image > img{
+    width: 100%;
+}
+
+.play-instantly-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--title-color);
+    margin-bottom: 1rem;
+}
+
+.play-instantly-desc{
+    width: 70%;
+    color: var(--description-color);
+}
+
+.play-instantly-image{
+    position: relative;
+}
+
+.other-img{
+    position: absolute;
+    left: -20%;
+    top: 60%;
+}
+
+.other-img img{
+    width: 200px;
+}
+
+.play-text{
+    color: var(--title-linear-color);
+}
+
