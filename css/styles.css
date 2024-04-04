@@ -11,6 +11,10 @@
     margin-right: 8%;
 }
 
+.hidden{
+    display: none;
+}
+
 :root{
     --title-linear-color: #C050D1;
     --description-color: #534C64;

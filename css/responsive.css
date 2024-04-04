@@ -1,0 +1,105 @@
+/* Responsive for small devices  */
+
+@media screen and (max-width: 640px) {
+    .space{
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .nav-container{
+        flex-direction: column;
+    }
+    .tabs-content ul{
+        gap: 1rem;
+    }
+    .tabs-content{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .we-gamer-container{
+        flex-direction: column;
+    }
+    .we-gamer-content{
+        width: 100%;
+        text-align: left;
+    }
+    .funny-videos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .play-instantly-container{
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+     .play-online-container{
+        margin-top: 5rem;
+        flex-direction: column-reverse;
+     }
+     .other1-img{
+        position: absolute;
+        top: 60%;
+        right: 20%;
+    }
+    .play-online-image > img{
+        width: 100%;
+    }
+    .other-img{
+        position: absolute;
+        left: 20%;
+        top: 60%;
+    }
+    .careers-container{
+        flex-direction: column;
+    }
+    .careers-image img{
+        width: 100%;
+    }
+    .our-games-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .all-footer-tabs, .our-policy, .footer-sites{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+/* Responsive for medium devices  */
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    .space{
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+    .play-instantly-container{
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+     .play-online-container{
+        margin-top: 5rem;
+        flex-direction: column-reverse;
+     }
+     .other1-img{
+        position: absolute;
+        top: 60%;
+        right: 20%;
+    }
+    .play-online-image > img{
+        width: 100%;
+    }
+    .other-img{
+        position: absolute;
+        left: 20%;
+        top: 60%;
+    }
+    .our-games-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
