@@ -323,3 +323,60 @@
 .other1-img img{
     width: 200px;
 }
+
+
+/* Careers container styles  */
+
+.careers{
+    background-color: #FF42A5;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}
+
+.careers-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+.careers-title{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.careers-btn{
+    border: none;
+    color: #FF42A5;
+    background-color: #fff;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.careers-desc{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.careers-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.careers-info .two{
+    text-align: right;
+}
+
+.careers-image img{
+    width: 600px;
+}
